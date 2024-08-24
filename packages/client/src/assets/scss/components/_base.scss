@@ -1,0 +1,56 @@
+@import "../fonts/poppins/poppins.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px -> 10px/16px(browser default) = 62.5%
+}
+
+body {
+  height: 100vh;
+  font-weight: 400;
+  line-height: 1.6;
+  background: $color-dark;
+  overflow: hidden;
+  color: $color-white;
+}
+
+main {
+  height: 100vh;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8a8a8a;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #acacac;
+}

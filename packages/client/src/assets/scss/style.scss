@@ -1,0 +1,15 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Components
+@import "components/base";
+@import "components/loader";
+@import "components/modal";
+
+// Pages
+@import "pages/home.scss";
+@import "pages/AddFriendModal.scss";
+@import "pages/Login.scss";

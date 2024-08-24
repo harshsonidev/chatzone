@@ -1,0 +1,77 @@
+// Colors
+$color-white: #fff;
+$color-black: #000;
+$color-dark: #111b21;
+$color-grey: rgb(147 147 147 / 50%);
+$color-dark-grey: #222e35;
+
+$white: #fff;
+$black: #000;
+$dropdown-bg : #343a40;
+
+
+$gray-100: #f8f9fa;
+$gray-400: #ccc;
+$gray-600: #6c757d;
+$gray-900: #212529;
+
+$primary: rgb(14, 140, 117);
+$secondary: rgb(34, 46, 53);
+$success: rgb(0, 221, 180);
+$info: rgb(68, 174, 212);
+$warning: rgb(212, 205, 68);
+$danger: rgba(221, 44, 28, 0.918);
+$light: rgb(248, 249, 250);
+$dark: rgb(17, 27, 33);
+
+// Border
+$border-width-primary: 2px;
+$border-radius-primary: 10px;
+
+// Sidebar
+$sidebar-top-header-height: 50px;
+$sidebar-width: 400px;
+
+// Chat
+$chat-top-bar-height: 50px;
+$chat-bottom-bar-height: 80px;
+
+
+
+// Bootstrap Variables Override
+
+$screen-small: 426px;
+// Colors
+
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $dark,
+  "dark": $light,
+);
+
+
+$color-contrast-dark: $light;
+$color-contrast-light: $dark;
+
+$btn-close-color: #f8f9fa;
+$border-color: rgb(147 147 147 / 50%);
+
+// Modal
+$modal-content-bg: $dark;
+$modal-content-border-width: 1px;
+$modal-content-border-color: rgb(147 147 147 / 30%);
+
+$dropdown-font-size: 1.1rem;
+$dropdown-dark-link-color: $gray-100;
+$dropdown-dark-link-hover-color: $gray-100;
+$dropdown-dark-link-active-bg: $gray-600;
+
+.modal-backdrop.show {
+  opacity: 0.8 !important;
+}

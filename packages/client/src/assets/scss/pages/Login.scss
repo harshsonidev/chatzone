@@ -1,0 +1,95 @@
+.login,
+.register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  font-size: 1.5rem;
+
+  & .content {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+    & .logo-details {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      & .logo {
+        width: 150px;
+        height: 150px;
+      }
+
+      & .title {
+        font-size: 1.7rem;
+        font-weight: 500;
+
+        & .appName {
+          background: -webkit-linear-gradient(45deg, $success 35%, $primary 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+    }
+
+    & .inputs-fields {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      width: 100%;
+
+      & .input-container {
+        font-size: 1.4rem;
+        width: 100%;
+
+        & .label {
+          font-size: 1.2rem;
+          margin-bottom: 5px;
+        }
+
+        & .input {
+          outline: none;
+          width: 100%;
+          border: none;
+          border-radius: 5px;
+          padding: 2px 5px;
+        }
+      }
+    }
+
+    & .login-btn,
+    .register-btn {
+      font-size: 1.4rem;
+      padding: 10px 30px;
+    }
+  }
+
+  & .lines {
+    font-size: 1.2rem;
+
+    & .line {
+
+      & .link {
+        text-decoration: none;
+        cursor: pointer;
+        color: $success;
+
+        &:hover {
+          color: rgb(0 140 114);
+        }
+      }
+    }
+  }
+
+}
